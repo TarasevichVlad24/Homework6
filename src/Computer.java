@@ -31,7 +31,7 @@ public class Computer {
     public static void main(String[] args){
         Computer computer1 = new Computer(2000, "Lenovo");
         System.out.println(computer1);
-        Ram ram = new Ram("DDR4", 16);
+        Ram ram = new Ram("DDR5", 16);
         Hdd hdd = new Hdd("Samsung",512,"Внутренний");
         Computer computer2 = new Computer(3000, "Honor",ram, hdd);
         System.out.println(computer2);
